@@ -531,7 +531,7 @@ const Dashboard = () => {
                       </p>
                     </div>
                   </div>
-                  <div>
+                  {/* <div>
                     <p className="text-gray-700 font-bold">
                       ${coin.current_price.toLocaleString()}
                     </p>
@@ -544,7 +544,7 @@ const Dashboard = () => {
                     >
                       {coin.price_change_percentage_24h.toFixed(2)}%
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               ))
             )}
